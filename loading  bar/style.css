@@ -1,0 +1,29 @@
+.box {
+    display: flex;
+    border: 1px solid black;
+    width: 500px;
+    height: 10px;
+    margin-left: 33.33%;
+    margin-top: 33.33%;
+}
+
+p {
+    margin-left: 50%;
+}
+.v{
+    background-color: rgb(0, 255, 8);
+    border: 1px solid rgb(0, 255, 8);
+    width: 0%;
+    height: 8px;
+    animation: loading 5s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

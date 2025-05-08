@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("p").on({
+                mousecenter: function(){
+                    $(this).css("background-color", "lightgray");
+                },
+                mouseleave: function(){
+                    $(this).css("background-color", "lightblue")
+                },
+                click: function(){
+                    $(this).css("background-color", "yellow")
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+    <p>Click or move the mouse pointer over this paragraph</p>
+</body>
+</html>

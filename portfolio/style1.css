@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.v{
+    margin-left: 20%;    
+    border: 2px solid white;
+    width: 500px;
+}
+p{
+    color: white;
+    text-align: center;
+}

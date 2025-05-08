@@ -1,0 +1,34 @@
+li{
+    display: inline;
+    font-size: xx-large;
+}
+p{
+    font-size: x-large;
+}
+a{
+    color: white;
+}
+img{
+    display: inline;
+    
+}
+.lst{
+    width: 200px;
+}
+.im{
+    width: 100px;
+    margin-left: 300px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    
+}
+tag{
+    display: inline;
+    font-size: xx-large;
+}
+body{
+    background-color: black;
+    color: white;
+}
