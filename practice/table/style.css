@@ -1,0 +1,21 @@
+table{
+    border: 2px solid green;
+    width: 50%;
+    margin: 20px auto;
+}
+
+th, td{
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: orange;
+}
+td{
+    background-color: white;
+}
+.v{
+    background-color: orange;
+}
